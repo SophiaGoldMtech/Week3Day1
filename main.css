@@ -36,9 +36,9 @@ body {
 
 .container {
   max-width: 1350px;
-  background-color: #627da0;
   margin: 0 auto;
-  clear: both;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -46,7 +46,6 @@ body {
   background-color: white;
   border: 2px solid #e7ab10;
   padding: 10px 10px 30px;
-  float: left;
   margin: 5px;
 }
 
