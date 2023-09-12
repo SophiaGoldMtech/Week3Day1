@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffef2;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #e7ab10;
+  margin: 0;
+  margin-bottom: 42px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: white;
+}
+
+.nav {
+  color: inherit;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.finances {
+  color: inherit;
+}
+
+.finances p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1350px;
+  background-color: #627da0;
+  margin: 0 auto;
+  clear: both;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border: 2px solid #e7ab10;
+  padding: 10px 10px 30px;
+  float: left;
+  margin: 5px;
+}
+
+.card h2 {
+  font-weight: normal;
+}
+
+.card p {
+  padding: 0 20px;
+}
+
+button {
+  width: 100%;
+  background-color: #e7ab10;
+  padding: 9px 0;
+  color: white;
+  border: 0;
+}
